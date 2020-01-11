@@ -1,0 +1,10 @@
+<p>address works!</p>
+<div>
+  <p>{{User.name}}</p>
+  <p>{{User.title}}</p>
+  <p>{{User.address}}</p>
+  <span *ngIf="User.phone.length>0">
+    <p>Phone:</p>
+  <p *ngFor="let item of User.phone">{{item}}</p>
+ </span>
+</div>
