@@ -8,6 +8,7 @@ import{ User } from './address/user.model' ;
 })
 export class AppComponent {
 user:User;
+firstName:string="type";
  constructor(){
  this.user=new User();
 

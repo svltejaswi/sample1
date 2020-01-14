@@ -5,8 +5,10 @@
 
 <p>My first expression: {{ 5 + 5 }}</p>
 <p>Input something in the input box:</p>
-<p>Name: <input type="text" ng-model="firstName"></p>
+<div>
+<p>Name: <input type="text" [(ngModel)]="firstName"></p>
 <p>You wrote: {{ firstName }}</p>
+</div>
 <app-hello></app-hello>
 <app-date></app-date>
 <app-address [user]="user"></app-address>
