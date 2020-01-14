@@ -8,11 +8,14 @@ import{ User } from './user.model' ;
 export class AddressComponent implements OnInit {
 
 @Input('user') user:User;
-
+isToggle:boolean=true;
 constructor() {
 
 }
-
+click()
+{
+this.isToggle=!this.isToggle;
+}
 ngOnInit() {
   }
 

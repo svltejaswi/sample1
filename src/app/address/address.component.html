@@ -1,11 +1,14 @@
 <p>address s!</p>
-<div>
-  <p>hi</p>
+<div class="addresscard">
+
   <p>{{user.name}}</p>
+    <button *ngIf=isToggle (click)="click()">expand</button>
+    <button *ngIf=!isToggle (click)="click()">collapse</button>
+ <div *ngIf="!isToggle">
   <p>{{user.title}}</p>
   <p>{{user.address}}</p>
-<!--  <span *ngIf="user.phone.length>0">
+    <p *ngIf="user.phone.length>0"></p>
     <p>Phone:</p>
-  <p *ngFor="let item of User.phone">{{item}}</p>
- </span> -->
+  <p *ngFor="let item of user.phone">{{item}}</p>
+</div>
 </div>

@@ -1,8 +1,5 @@
-div{
-
-background-color: yellow;
-}
-span{
-
-background-color: white;
+.addresscard{
+background-color: tomato;
+border: 10px solid powderblue;
+               padding: 30px;
 }

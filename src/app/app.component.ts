@@ -14,5 +14,6 @@ user:User;
 this.user.name="tejaswi";
 this.user.title="ui developer";
 this.user.address="137 jeremy ct";
+this.user.phone=['1233456789','13432455','32454365'];
 }
 }
